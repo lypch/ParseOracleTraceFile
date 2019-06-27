@@ -11,7 +11,7 @@ But it is difficult to trace every operation in the program. In general, we can 
 but it's impossible to add a log for all operations in the program. we need a more efficient way.
 
 Fortunately, we know that Oracle can trace the session, which will record all SQL statements that the session executed and output to a trace file binding with the session.
-but it's raw data whose means of every data is obscure. it needs to be converted to be human-readable.
+but it's raw data whose meaning of every data is obscure. it needs to be converted to be human-readable.
 
 So we have the initial code, but it has a lot of issues. at least, we can analyze the data in the trace file, return the time consumption of every SQL statements. 
 
